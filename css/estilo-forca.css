@@ -1,0 +1,225 @@
+body,html{
+  position:absolute;
+	top:0;
+	left:0;
+ background: linear-gradient(135deg, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 52%, rgba(44,44,44,1) 57%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+  width:100%;
+	height:100%;
+}
+.container{
+  position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-200px;
+	margin-top: -330px;
+}
+#titulo{
+  font-family: cursive;
+  color: white;
+  font-size: 50px;
+}
+.btn-sortear{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	padding: 10px 20px;
+	background: -moz-linear-gradient(
+		top,
+		#42aaff 0%,
+		#003366);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#42aaff),
+		to(#003366));
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #003366;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.5);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.5);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.5);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.7),
+		0px 1px 0px rgba(255,255,255,0.3);
+    cursor:pointer;
+    position:absolute;
+  	left:50%;
+  	top:50%;
+  	margin-left:-100px;
+  	margin-top: -180px;
+}
+.letra{
+  width: 30px;
+  font-size: 30px;
+  border-radius: 10px;  
+  margin: 5px;
+  text-transform: uppercase;
+  text-align: center;  
+}
+.Palavra{
+  position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-300px;
+	margin-top: -100px;
+}
+.card{
+    border-color: #808080 #000000 #000000 #808080;
+    border-width: 2px;
+    border-radius: 15px;
+    border-style: solid;
+    font-size: 20pt;
+    position: absolute;
+    width:  755px;
+    height: 150px;
+    left:50%;
+  	top:50%;
+  	margin-left:-400px;
+  	margin-top: -50px;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(210,208,208,1) 100%);
+    -webkit-box-shadow: 0px 3px 25px -1px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 3px 25px -1px rgba(255,255,255,1);
+    box-shadow: 0px 3px 25px -1px rgba(255,255,255,1);
+    margin-top: -10px;
+}
+#escolha{
+  font-family: fantasy;
+  position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-350px;
+	margin-top: -50px;
+}
+#letra-escolhida{
+  font-size: 23px;
+  border-radius: 5px;
+  max-width: 60px;
+  position:absolute;
+  text-transform: uppercase;
+  text-align: center;
+	left:50%;
+	top:50%;
+	margin-left:-130px;
+	margin-top: -48px;
+  border-style: solid;
+  border-width: 1px;
+}
+.btn-verificar {
+	font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 10px 20px;
+  background: -moz-linear-gradient(
+    top,
+    #6842ff 0%,
+    #003366);
+  background: -webkit-gradient(
+    linear, left top, left bottom,
+    from(#6842ff),
+    to(#003366));
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid #003366;
+  -moz-box-shadow:
+    0px 1px 3px rgba(000,000,000,0.5),
+    inset 0px 0px 1px rgba(255,255,255,0.5);
+  -webkit-box-shadow:
+    0px 1px 3px rgba(000,000,000,0.5),
+    inset 0px 0px 1px rgba(255,255,255,0.5);
+  box-shadow:
+    0px 1px 3px rgba(000,000,000,0.5),
+    inset 0px 0px 1px rgba(255,255,255,0.5);
+  text-shadow:
+    0px -1px 0px rgba(000,000,000,0.7),
+    0px 1px 0px rgba(255,255,255,0.3);
+    cursor:pointer;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left: -60px;
+    margin-top: -53px;
+}
+.btn-dica{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 10px 20px;
+  background: -moz-linear-gradient(
+    top,
+    #6842ff 0%,
+    #003366);
+  background: -webkit-gradient(
+    linear, left top, left bottom,
+    from(#6842ff),
+    to(#003366));
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid #003366;
+  -moz-box-shadow:
+    0px 1px 3px rgba(000,000,000,0.5),
+    inset 0px 0px 1px rgba(255,255,255,0.5);
+  -webkit-box-shadow:
+    0px 1px 3px rgba(000,000,000,0.5),
+    inset 0px 0px 1px rgba(255,255,255,0.5);
+  box-shadow:
+    0px 1px 3px rgba(000,000,000,0.5),
+    inset 0px 0px 1px rgba(255,255,255,0.5);
+  text-shadow:
+    0px -1px 0px rgba(000,000,000,0.7),
+    0px 1px 0px rgba(255,255,255,0.3);
+    cursor:pointer;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left: 53px;
+    margin-top: -53px;
+}
+#letrasDigitadas{
+  font-family: fantasy;
+  position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-350px;
+	margin-top: 30px;
+}
+@media screen and (max-width: 1128px) {
+.container {
+   padding: 0 2.4em 0 2.4em;
+}
+}
+@media screen and (max-width: 768px) {
+.card {
+   width: 65%;
+}
+}
+/*
+.letra{
+    
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 5px;
+    display: none;
+}
+*/
+.letra-escolhida{
+    width: 30px;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 5px;
+}
+#Forca
+{
+  width: 300px;
+  height: 300px;
+}
